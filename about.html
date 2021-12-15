@@ -1,0 +1,164 @@
+<html>
+
+   <head>
+   <style type="text/css">
+      *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+      body{
+          background-color: ;
+          font-family: gill sans;
+        }
+      .header{
+          padding: 60px 180px 0px 180px;
+          display: ;
+          background-color: ;
+          margin-bottom: 70px;
+      }
+      ul{
+          float: right;
+          margin: 25px;
+          font-size: 25px;
+      }
+      li{
+          display: inline-block;
+          border: 2px solid #ff6666;
+          border-radius: 15px;
+          margin-left: 30px;
+          padding: 7px 39px 7px 39px;
+          background-color: #ff9999;      
+        }
+      .logo{
+          border-radius: 25px;
+          width: 20%;
+      }
+      .banner{
+          border: 3px solid #006699;
+          margin: 0px 0px 90px 0px;
+      }
+      .poster{
+          float: right;
+          padding: 220px 150px;
+          background-color: red;
+          margin: 0px 100px 0px 0px;
+      }
+      .main1{
+          display: ;
+      }
+      a:visited {
+            color: white;
+        }
+      a:link {
+            color: white;
+        } 
+      a:hover {
+           color: hotpink;
+        } 
+      .mission{
+          max-width: 1000px;
+          padding: ;
+          background-color: ;
+          position: relative;
+          margin: 0px 50px 100px 100px;
+          font-size: 75px;
+      } 
+      .missionpic{
+          float: left;
+          width: 50%;
+          padding: 130px;
+          text-align: center;
+      }
+      .missionpic2{
+          float: right;
+          width: 50%;
+          padding: 130px;
+          text-align: center;
+      }
+      p{
+          font-size: 30px;
+          line-height: 70px;
+      }
+      .missionpic p{
+        padding-top: 100px;
+      }
+      .missionpic2 p{
+        padding-top: 100px;
+      }
+    
+   </style>
+   </head>
+
+   <body>
+
+   <nav class="header">
+      <img src="pic/logo2.png" class="logo">
+      <ul>
+        <a href="index.html"><li>Adoption Process</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="events.html"><li>Events</li></a>
+      </ul>
+   </nav>
+
+   <div class="banner">
+
+      <img src="pic/banner5.jpg"  width="100%">
+
+   </div>
+
+
+<div class="container">
+ <div class="missionpic">
+   <h1 style="font-size: 60px;">Our Mission</h1>
+   <p>Our goal is for our target audience to realize that it’s better to adopt than shop. We want the audience to go to adoption centers instead of stores and save animals that need a home.
+   </p>
+ </div>
+ <img src="pic/mission.jpg" class="missionpic">
+</div>
+
+
+<div class="container2">
+ <div class="missionpic2">
+   <p>The overall message we are trying to convey to our target audience is to adopt, don’t shop. This is an important message because when you adopt you help an animal in need. Most animals that are in shelters are either lost, left out in the streets, or were treated terribly by their previous owner.</p>
+ </div>
+ <img src="pic/banner2.jpg" class="missionpic2">
+</div>
+
+
+<div class="container">
+ <div class="missionpic">
+   <p>It’s also important because you save a life, you pay less, and help stop cruelty in mass breeding facilities. The methods we will use to convey the overall message are by creating a poster, website, and totes/stickers and spreading the message. We could also encourage people to adopt by setting the example and adopting an animal or showing examples of people who have adopted pets.</p>
+ </div>
+ <img src="pic/about3.jpg" class="missionpic">
+</div>
+
+
+<div class="container">
+ <div class="mission">
+   <h1>The Crew</h1>
+
+   <p>Michael Centeno<br>Sebastian Santiago<br>Guadalupe<br>Harol Rojas</p>
+ </div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+</html>

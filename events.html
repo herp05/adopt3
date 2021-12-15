@@ -1,0 +1,131 @@
+<html>
+
+   <head>
+   <style type="text/css">
+      *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+      body{
+          background-color: ;
+          font-family: gill sans;
+        }
+      .header{
+          padding: 60px 180px 0px 180px;
+          display: ;
+          background-color: ;
+          margin-bottom: 70px;
+      }
+      ul{
+          float: right;
+          margin: 25px;
+          font-size: 25px;
+      }
+      li{
+          display: inline-block;
+          border: 2px solid #ff6666;
+          border-radius: 15px;
+          margin-left: 30px;
+          padding: 7px 39px 7px 39px;
+          background-color: #ff9999;      
+        }
+      .logo{
+          border-radius: 25px;
+          width: 20%;
+      }
+      .banner{
+          border: 3px solid #ffcc99;
+          margin: 0px 0px 50px 0px;
+      }
+      .poster{
+          float: right;
+          padding: 220px 150px;
+          background-color: red;
+          margin: 0px 100px 0px 0px;
+      }
+      .main1{
+          display: inline-block;
+      }
+      a:visited {
+            color: white;
+        }
+      a:link {
+            color: white;
+        } 
+      a:hover {
+           color: hotpink;
+        } 
+      .merch{
+			padding: 30px 0px 30px 100px;
+			float: left;
+			width: 40%;
+			border: ;
+			margin: 10px;
+        } 
+      .merchlist{
+           margin-left: 150px;
+      }    
+    
+   </style>
+   </head>
+
+   <body>
+
+   <nav class="header">
+      <img src="pic/logo2.png" class="logo">
+      <ul>
+        <a href="index.html"><li>Adoption Process</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="events.html"><li>Events</li></a>
+      </ul>
+   </nav>
+
+   <div class="banner">
+
+      <img src="pic/banner5.jpg"  width="100%">
+
+   </div>
+
+
+<div class="merchlist">
+   <h1>Upcoming Events</h1>
+   <br>
+   <div class="merch">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96819.35471963751!2d-73.963006!3d40.6826751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ba3256833b3%3A0xea99f672b3123728!2sPure%20Paws%20Veterinary%20Care%20of%20Clinton%20Hill!5e0!3m2!1sen!2sus!4v1639526617601!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <h1>Pure Paws Veterinary Care of Clinton Hill</h1>
+   </div>
+   <div class="merch">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193635.47547288754!2d-73.96147259052344!3d40.683788265443425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f5fd024e83d3%3A0xa83e15f5b41d01df!2sInky%20Blue%20Sea%20Companion%20Animal%20Rescue%2C%20Inc.!5e0!3m2!1sen!2sus!4v1639526756103!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <h1>Inky Blue Sea Companion Animal Rescue, Inc.</h1>
+   </div>
+   <div class="merch">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30351.374449955587!2d-74.00373596022064!3d40.72526358102463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9f8414123%3A0x5fcb5ef6b2c76353!2sBest%20Friends%20Animal%20center!5e0!3m2!1sen!2sus!4v1639526965884!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <h1>Best Friends Animal center</h1>
+   </div>
+   <div class="merch">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119056.04768917632!2d-73.91108370888023!3d40.8306790714884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28d22f2ee2e11%3A0x667a84e9a2f8e776!2sMt%20Vernon%20Animal%20Shelter!5e0!3m2!1sen!2sus!4v1639527034884!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <h1>Mt Vernon Animal Shelter</h1>
+   </div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+</html>
